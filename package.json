@@ -1,0 +1,25 @@
+{
+  "name": "aws-file-upload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lunebakami/aws-file-upload.git",
+  "author": "Luis Santos <luis.santos.taiba@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.987.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.9.0"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.12"
+  }
+}
